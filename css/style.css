@@ -1,0 +1,40 @@
+p, nav {
+  border: solid 1px black;
+}
+
+#main-logo {
+  margin: 0 auto;
+}
+
+nav {
+  text-align: right;
+}
+
+main {
+  padding-top: 10%;
+  text-align: center;
+}
+
+#search-bar {
+  border-top-left-radius: : 100%;
+}
+
+footer {
+  font-family: Arial, sans-serif;
+  margin-left: -10px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+footer div {
+  background: #f2f2f2;
+  border: solid rgba(0, 0, 0, 0.1) 1px;
+}
+
+#bottom-footer {
+  padding: 0.75rem 1.6rem 1rem 2.5rem;
+}
+/* .nav-link {
+  display: inline;
+} */
