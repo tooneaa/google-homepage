@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
 p, nav {
   border: solid 1px black;
 }
@@ -21,19 +27,34 @@ main {
 
 footer {
   font-family: Arial, sans-serif;
-  margin-left: -10px;
   width: 100%;
   position: fixed;
   bottom: 0;
+  color: rgba(0, 0, 0, 0.54);
 }
 
 footer div {
   background: #f2f2f2;
-  border: solid rgba(0, 0, 0, 0.1) 1px;
+  border: solid rgba(228,228, 228, 0.99) 1px;
+  font-size: 14px;
+}
+
+footer a {
+  font-size: 14px;
+  text-decoration: none;
+  padding-right: 1.5em;
+  color: rgba(0, 0, 0, 0.54);
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer a:visited {
+  color: #000;
 }
 
 #bottom-footer {
-  padding: 0.75rem 1.6rem 1rem 2.5rem;
+  padding: 0.75rem 1.6rem 0.75rem 2rem;
 }
 /* .nav-link {
   display: inline;
