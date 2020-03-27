@@ -25,7 +25,27 @@ main {
 }
 
 #search-bar {
-  border-top-left-radius: : 100%;
+  border: solid black 1px;
+  padding: 0.8% 2.5% 1% 2.5%;
+  margin: 1rem auto 1px auto;
+  width: 50%;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  border-top-right-radius: 24px;
+  border-top-left-radius: 24px;
+  display: flex;
+}
+
+#search-bar > input {
+  border: ;
+  vertical-align: center;
+  margin: 0 10px 0 10px;
+  flex-grow: 1;
+}
+
+#search-bar > input:before {
+  content:"test";
+  display:block;
 }
 
 button {
