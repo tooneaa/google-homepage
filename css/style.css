@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+
 }
 
 
@@ -42,6 +43,30 @@ main {
   border-top-left-radius: 24px;
   display: flex;
 
+}
+
+#mag-glass {
+  background-image: url('../asset/products.png');
+  background-repeat: no-repeat;
+  background-position: -299px -40px;
+  background-size:633.6px 81.6px ;
+  opacity: 0.4;
+  width:25px;
+  height:25px;
+  border: solid black 0px;
+  padding: 0 0 0 0;
+  margin: -1px 0px -1px -10px;
+}
+
+#mic {
+  margin: -1px -15px -1px 0px;
+  padding: 0px 0px 0px 0px;
+  width:25px;
+  height:25px;
+  background-image: url('../asset/googlemic.png');
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position:center;
 }
 
 #search-bar:hover {
