@@ -2,12 +2,14 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
   <nav>
     <a class="nav-link" href="#">Gmail</a>
     <a class="nav-link" href="#">Images</a>
-    <span class="nav-link">Product</span>
+    <a class="nav-link" href="#" id="products"></a>
     <img class="nav-link" id="user-icon" src="asset/T photo.png">
   </nav>
+
   <main>
     <div>
       <img id="main-logo" src="asset/googlelogo.png"/>
@@ -15,7 +17,9 @@
     <div id="search-bar">
       <span id='mag-glass'></span>
       <input type="text" autofocus>
-      <a id='mic' href="#"></a>
+      <a id='mic' class="tooltip" href="#">
+        <span class="tooltiptext">search by voice</span>
+      </a>
     </div>
     <div>
       <button>Google search</button>
