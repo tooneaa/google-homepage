@@ -52,11 +52,42 @@ p {
 
 
 #main-logo {
+
   margin: 0 auto;
+  margin-top:-50;
 }
 
 nav {
   text-align: right;
+}
+
+#side-logo {
+  padding: 2em 0 5px 2em ;
+  height: 36.8px;
+  width: 108.8px;
+  float:left;
+}
+
+#side-search-bar {
+  float: left;
+  border: solid rgba(0, 0, 0, 0.40) 1px;
+  padding: 6px 2.5% 6px 6px;
+  margin: 26px 0 0 30px;
+  width: 35%;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  border-top-right-radius: 24px;
+  border-top-left-radius: 24px;
+  display: flex;
+}
+
+#side-search-bar > input {
+  font-size: 16px;
+  border: none;
+  vertical-align: center;
+  margin: 0 10px 0 10px;
+  flex-grow: 1;
+  display: flex;
 }
 
 main {
@@ -160,7 +191,7 @@ main {
   flex-grow: 1;
 }
 
-#search-bar > input:focus{
+#search-bar > input:focus, #side-search-bar > input:focus{
   outline: none;
   background-color:;
 
