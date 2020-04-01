@@ -253,6 +253,44 @@ footer a:visited {
 #bottom-footer {
   padding: 0.75rem 1.6rem 0.75rem 2rem;
 }
+
+#listing-page {
+  border: solid black 1px;
+  text-align:left;
+  vertical-align: top;
+  padding: 1em;
+  flex:2;
+}
+
+.ads-listing{
+  margin: 2px 0 1em 0;
+  padding-bottom: 1%;
+}
+.ads-title {
+  font-size: small;
+}
+.ads-title::before {
+  content: "Ads \00B7" ;
+  font-weight: bold;
+}
+.ads-link {
+  text-decoration:none;
+}
+.ads-link {
+  text-decoration:none;
+}
+.ads-link:hover {
+  text-decoration: underline;
+}
+.ads-link:visited {
+  color:blue;
+}
+.ads-description {
+ font-size: 0.9em;
+}
+.ads-description span {
+ font-weight: bold;
+}
 /* .nav-link {
   display: inline;
 } */
